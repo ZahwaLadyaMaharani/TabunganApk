@@ -4,9 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Project PAM/TabunganApk/app/src/main/res/drawable/add_button_background.xml" value="0.168" />
+        <entry key="..\:/Project PAM/TabunganApk/app/src/main/res/drawable/ic_login.xml" value="0.168" />
         <entry key="..\:/Project PAM/TabunganApk/app/src/main/res/layout/activity_edit.xml" value="0.128" />
         <entry key="..\:/Project PAM/TabunganApk/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/Project PAM/TabunganApk/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Project PAM/TabunganApk/app/src/main/res/layout/activity_main.xml" value="0.152" />
         <entry key="..\:/Project PAM/TabunganApk/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Project PAM/TabunganApk/app/src/main/res/layout/list_catatan_tabungan.xml" value="0.2" />
       </map>

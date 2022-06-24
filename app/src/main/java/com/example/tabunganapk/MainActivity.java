@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private ListView listView;
     private DatabaseAcces databaseAcces;
     private List<CatatanTabungan> memos;
+    Button btnBuat;
 
 
     @Override
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         databaseAcces = DatabaseAcces.getInstance(this);
 
         listView = findViewById(R.id.listView);
-        Button btnBuat = findViewById(R.id.btnBuat);
+         btnBuat = findViewById(R.id.btnBuat);
 
         btnBuat.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -78,6 +79,8 @@ public class MainActivity extends AppCompatActivity {
             final CatatanTabungan catatanTabungan = memos.get(position);
             txtDate.setText(catatanTabungan.getDate());
             txtMemo.setText(catatanTabungan.getShortText());
+
+            btnEdit = findViewById(R.id.btnEdit);
 
             btnEdit.setOnClickListener(new View.OnClickListener() {
                 @Override

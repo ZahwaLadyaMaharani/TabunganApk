@@ -20,7 +20,7 @@ public class EditActivity extends AppCompatActivity {
 
         this.etText =  findViewById(R.id.editJudul);
         Button btnSave = findViewById(R.id.btnTambah);
-        Button btnCencel =  findViewById(R.id.btnDelete);
+        Button btnCancel =  findViewById(R.id.btnDelete);
 
         Bundle bundle = getIntent().getExtras();
         if (bundle != null){
@@ -36,7 +36,7 @@ public class EditActivity extends AppCompatActivity {
                 onSaveClicked();
             }
         });
-        View btnCancel = null;
+        View btnCencel = null;
         btnCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

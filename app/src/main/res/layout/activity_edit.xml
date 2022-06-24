@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#FFE6E6"
     tools:context=".EditActivity">
 
     <ScrollView
@@ -23,7 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Catatan Tabungan"
-                android:textColor="@color/black"
+                android:textColor="#BC8F8F"
                 android:textSize="30dp"
                 android:textStyle="bold"
                 tools:textSize="30dp"/>
@@ -33,6 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:textColor="#BC8F8F"
                 android:inputType="textNoSuggestions"/>
 
             <TextView
@@ -40,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Tanggal"
-                android:textColor="@color/black"
+                android:textColor="#BC8F8F"
                 android:textSize="25dp"
                 tools:textSize="25dp"/>
 
@@ -55,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Keterangan"
-                android:textColor="@color/black"
+                android:textColor="#BC8F8F"
                 android:textSize="25dp"
                 tools:textSize="25dp"/>
 
@@ -65,6 +67,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:gravity="top|left"
+                android:textColor="#BC8F8F"
                 android:lines="8"/>
 
             <CheckBox
@@ -87,7 +90,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="5dp"
                     android:layout_weight="1"
-                    android:background="#808080"
+                    android:backgroundTint="#BC8F8F"
                     android:text="TAMBAH DATA"
                     android:textColor="@color/white"/>
             </LinearLayout>

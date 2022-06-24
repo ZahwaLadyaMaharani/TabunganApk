@@ -16,7 +16,7 @@
         android:textStyle="bold"
         android:textSize="35dp"
         android:layout_marginTop="50dp"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="20dp"
         android:layout_marginBottom="15dp"
         android:layout_above="@id/tv_subtitle"/>
 

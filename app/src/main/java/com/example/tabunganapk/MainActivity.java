@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(MainActivity.this, EditActivity.class);
-                    intent.putExtra("CATATAN TABUNGAN", catatanTabungan);
+                    intent.putExtra("CATATAN TABUNGANN", catatanTabungan);
                     startActivity(intent);
                 }
             });

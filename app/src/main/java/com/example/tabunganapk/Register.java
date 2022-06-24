@@ -44,10 +44,10 @@ public class Register extends AppCompatActivity {
                     edemail.setError("Email Diperlukan");
                 }
                 if (edpass.getText().toString().length()==0){
-                    edpass.setError("Password DiPerlukan");
+                    edpass.setError("Password Diperlukan");
                 }
                 if (edrepass.getText().toString().length()==0){
-                    edrepass.setError("Re-Password DiPerlukan");
+                    edrepass.setError("Re-Password Diperlukan");
                 }
                 else {
                     if (edpass.getText().toString().equals(edrepass.getText().toString())) {

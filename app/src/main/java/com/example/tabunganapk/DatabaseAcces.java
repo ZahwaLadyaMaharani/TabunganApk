@@ -37,7 +37,7 @@ public class DatabaseAcces {
 
     public void save(CatatanTabungan catatanTabungan){
         ContentValues values = new ContentValues();
-        values.put("date", catatanTabungan.getTime());
+        values.put("Date", catatanTabungan.getTime());
         values.put("catatan pemasukan dan pengeluaran", catatanTabungan.getText());
         database.insert(DatabaseOpenHelper.TABLE,null,values);
 

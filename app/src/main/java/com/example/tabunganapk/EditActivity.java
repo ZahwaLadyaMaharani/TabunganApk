@@ -24,7 +24,7 @@ public class EditActivity extends AppCompatActivity {
 
         Bundle bundle = getIntent().getExtras();
         if (bundle != null){
-            catatanTabungan = (CatatanTabungan) bundle.get("CATATAN TABUNGAN");
+            catatanTabungan = (CatatanTabungan) bundle.get("CATATAN TABUNGAN KITA");
             if (catatanTabungan != null){
                 this.etText.setText(catatanTabungan.getText());
             }

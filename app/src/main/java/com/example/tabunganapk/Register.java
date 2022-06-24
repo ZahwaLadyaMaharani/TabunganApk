@@ -44,7 +44,7 @@ public class Register extends AppCompatActivity {
                     edemail.setError("Email Diperlukan");
                 }
                 if (edpass.getText().toString().length()==0){
-                    edpass.setError("Password Diperlukan");
+                    edpass.setError("Password Di Perlukan");
                 }
                 if (edrepass.getText().toString().length()==0){
                     edrepass.setError("Re-Password Diperlukan");

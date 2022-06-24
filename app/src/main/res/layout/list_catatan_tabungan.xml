@@ -18,8 +18,7 @@
             android:gravity="top|center_horizontal"
             android:textSize="25dp"
             android:text="Date"
-            android:textColor="#BC8F8F"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:textColor="#BC8F8F" />
 
         <TextView
             android:id="@+id/txtCatatan"
@@ -27,8 +26,7 @@
             android:layout_height="37dp"
             android:text="Medium Text"
             android:textColor="#BC8F8F"
-            android:textSize="25dp"
-            android:textAppearance="?android:attr/textAppearanceMedium"/>
+            android:textSize="25dp" />
 
     </LinearLayout>
 

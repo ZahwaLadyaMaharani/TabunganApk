@@ -42,7 +42,7 @@ public class CatatanTabungan implements Serializable {
     }
 
     public String getShortText() {
-        String temp = text.replaceAll("/n.", " ");
+        String temp = text.replaceAll("/n", " ");
         if (temp.length() > 25) {
             return temp.substring(0, 25) + "...";
         } else {

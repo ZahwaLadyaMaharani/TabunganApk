@@ -8,7 +8,6 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-//login
 public class LoginActivity extends AppCompatActivity {
     EditText txtemail, txtpassword;
     Button btnLogin;

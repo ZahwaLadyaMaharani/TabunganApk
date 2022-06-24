@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="341dp"
+            android:layout_marginBottom="340dp"
             android:backgroundTint="#BC8F8F"
             android:text="Buat Catatan" />
 
